@@ -13,17 +13,9 @@ class Services{
     public function __construct(){         
     }      
 
-    public function insert($name, $description, $category, $imagen, $type_service ){ 
-        $db= new Conexion;
-        $this->$name=$name;
-        $this->$description=$description;
-        $this->$category=$category;
-        $this->$imagen=$imagen;
-        $this->$type_service=$type_service;                    
-
-        $sql="INSERT INTO services (name, description, category, imagen, type)
-        VALUES ( '$name', '$description', '$category', '$imagen', '$type_service')";
-        $res=$db->query($sql);
+    public function insert($query){ 
+        $db= new Conexion;        
+        $res=$db->query($query);
         if($res){
             return $res;
         }else{
@@ -54,10 +46,9 @@ class Services{
         }
     } 
     
-    public function delete($id){ 
-        $db= new Conexion();
-        $sql="DELETE FROM services WHERE id=$id";
-        $res=$db->query($sql);
+    public function delete($query){ 
+        $db= new Conexion();        
+        $res=$db->query($query);
         if($res){
             return $res;
         }else{

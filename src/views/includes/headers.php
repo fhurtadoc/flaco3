@@ -5,6 +5,8 @@
         <meta name="author" content="" />
         <title>Copa RIncon Infantil</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>   
+
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -13,5 +15,6 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
         <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+
         <link href="css/styles.css" rel="stylesheet" />
 </head>

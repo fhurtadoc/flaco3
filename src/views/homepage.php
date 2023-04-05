@@ -27,7 +27,7 @@
                         <h2 class="text-white mb-4">Conoce el resultado de nuetro Torneo</h2>
                         <p class="text-white-50">
                             En El siguiente Link podras consultar los resultados y las tablas de resultados actuales 
-                            <a href="https://startbootstrap.com/theme/grayscale/">Asegurate de Buscar la categoria Correcta.</a>
+                            <a href="./champion.php">Asegurate de Buscar la categoria Correcta.</a>
                             
                         </p>
                     </div>

@@ -2,9 +2,9 @@
 
 class Conexion {
     private $host ="localhost";
-    private $usuario ='';
-    private $clave ='';
-    private $db ='';
+    private $usuario ='alejo';
+    private $clave ='Mathi142014**';
+    private $db ='flacoleguae';
     public  $conexion;
     
     public function __construct(){
